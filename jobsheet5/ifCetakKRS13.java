@@ -15,6 +15,10 @@ public class ifCetakKRS13 {
         System.out.println("Silakan cetas KRS dan minta tanda tangan DPA");
         } else {
             System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu.");
+
+              boolean presensi = false;
+              String hasil = presensi ? "Cetak KRS diperbolehkan" : "Tidak boleh cetak KRS";
+              System.out.println(hasil);
         }
 
     }
